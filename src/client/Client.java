@@ -15,7 +15,7 @@ public class Client {
 
     public Client(){
         try{
-            socket = new Socket("localhost", 1880);
+            socket = new Socket("192.168.1.119", 1881);
             System.out.println("Socket created");
         } catch (Exception e){
             System.err.println("Error: " + e.getMessage());
